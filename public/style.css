@@ -1,0 +1,42 @@
+:root{
+    --red: rgb(255, 0, 63);
+}
+
+.text-red{
+    color: var(--red);
+}
+
+.text-gray{
+    color: #a6a5a5;
+}
+
+.bg-red {
+    background-color: var(--red) !important;
+}
+
+.bg-gray{
+    background-color: #efefef;
+}
+
+
+.btn-red {
+    background-color: var(--red) !important;
+    color: #fff !important;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-white {
+    background-color: #fff !important;
+    color: var(--red) !important;
+    font-weight: bold;
+    border: none;
+}
+
+.f-c {
+    border: none !important;
+}
+
+.rounded-c {
+    border-radius: 20px;
+}
